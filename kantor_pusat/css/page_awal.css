@@ -1,0 +1,55 @@
+.page_awal_scale{
+    animation: page_awal_scale .75s;
+}
+.page_awal_opacity{
+    animation: page_awal_opacity 1s;
+}
+
+.page_awal_kiri{
+    animation: page_awal_kiri .75s;
+}
+
+
+
+@keyframes page_awal_scale {
+    from{
+        opacity: 0;
+        transform: scale(0);
+    }
+    to{
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+@keyframes page_awal_opacity {
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+
+@keyframes page_awal_kiri {
+    from{
+        opacity: 0;
+        transform: translateX(-100%);
+    }
+    to{
+        opacity: 1;
+        transform:translateX(0);
+    }
+}
+
+@keyframes page_awal_kanan {
+    from{
+        opacity: 0;
+        transform: translateX(100%);
+        /* transform: scale(0); */
+    }
+    to{
+        opacity: 1;
+        transform: translateX(0);
+        /* transform: scale(1); */
+    }
+}

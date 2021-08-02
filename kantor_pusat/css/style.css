@@ -1,0 +1,223 @@
+:root{
+    --text-color: #000;
+    --second-color: #fa0000;
+    --bg-color: rgb(255, 255, 255);
+}
+
+html[data-color-mode='dark']{
+    --text-color: rgb(252, 252, 252);
+    --second-color: purple;
+    --bg-color: #333;
+}
+html[data-color-mode='light']{
+    --text-color: #000;
+    --second-color: #fa0000;
+    --bg-color: rgb(255, 255, 255);
+}
+
+
+
+
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    color: var(--text-color);
+    background-color: var(--bg-color);
+}
+section{
+    min-height: 100vh;
+}
+hr{
+    margin:auto;
+    width: 150px;
+    border-top: 3px solid var(--second-color);
+    /* margin-top: 0px; */
+}
+.bebas-nue{
+    font-family: 'Bebas Neue', cursive;
+}
+.dotgothic{
+    font-family: 'DotGothic16', sans-serif;
+}
+
+
+
+.navbar{
+    font-family: 'Viga', sans-serif;
+}
+/* Jumbotron */
+.jumbotron{
+    height: 100vh;
+    background-color: rgba(127, 255, 212, 0.295);
+    background-size: cover;
+}
+.jumbotron h1{
+    /* margin-top: 120%; */
+    font-size: 2rem;
+    font-family: 'Lobster', cursive;
+    margin-top: 40%;
+}
+.row svg{
+    width: 250px;
+    position: absolute;
+    top: 300px;
+    left: 15%;
+}
+.jumbotron p{
+    margin-top: 300px;
+}
+
+
+/* About */
+.about img{
+    width: 100px;
+}
+.about h3{
+    /* font-family: 'Roboto Slab', serif; */
+}
+.class-animasi .col-md-3.teks-animasi{
+    opacity: 0%;
+    transition: 1.5s;
+    transform: translate(-350px, 0px);
+}
+.class-animasi .teks-animasi.muncul{
+    opacity: 100%;
+    transform: translate(0px, 0px);
+}
+
+.class-animasi .teks2-animasi{
+    opacity: 0%;
+    transition: 1s;
+    /* transform: translate(-350px, 0px); */
+}
+
+.class-animasi .teks2-animasi.muncul{
+    opacity: 100%;
+    transform: translate(0px, 0px);
+}
+
+/* Color */
+
+
+/* Button */
+button.button-awal{
+    border-radius: 4px;
+    padding:5px;
+    box-sizing: border-box;
+}
+
+.button-awal{
+    color: var(--text-color);
+    border:1px solid var(--second-color);
+    background-color: var(--bg-color);
+}
+.button-awal:hover{
+    color: var(--second-color) ;
+}
+
+.tesbor{
+    border: 1px solid red;
+}
+
+/* Project */
+.project-gambar{
+    /* background-image: url("../img/project.jpg"); */
+    /* background-color: var(--bg-color); */
+    background-attachment: fixed;
+    
+    background-size: cover;
+    
+}
+
+.project{
+    margin-bottom: 50px;
+    cursor: pointer;
+    color: var(--text-color);
+}
+
+.project .project-kotak-cover{
+    /* background-color: royalblue; */
+    height: auto;
+    /* border: 1px solid red; */
+}
+
+
+
+.project-gambar p{
+    font-size: 80px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-shadow: 0px 0px 10px var(--second-color);
+    line-height: 0px;
+    margin-top: 30%;
+    /* color: var(--second-color); */
+    transform: translate(0,0);
+}
+
+.project-gambar h3{
+    margin-top: 10%;
+    margin-bottom: 20%;
+    /* color: rgb(255, 255, 255); */
+}
+.project-kotak{
+    overflow: hidden;
+    transition: .3s;
+}
+.project-kotak .project-p{
+    opacity: 0%;
+    transition: 1s;
+    transform: translate(350px, 0px);
+}
+.project-kotak .project-p.muncul{
+    opacity: 100%;
+    transform: translate(0px, 0px);
+}
+
+.project-kotak .project-h3{
+    opacity: 0%;
+    transition: 1s;
+    transform: translate(-350px, 0px);
+}
+
+.project-kotak .project-h3.muncul{
+    opacity: 100%;
+    transform: translate(0px, 0px);
+}
+.project-kotak:hover{
+    transform: scale(2);
+}
+
+
+
+/* Media querie */
+@media (min-width: 768px) {
+    .jumbotron{
+        background-image: url("../img/jumbotron.svg");
+    }
+    .jumbotron h1{
+        font-size: 3rem;
+        margin-top: -10%;
+    }
+    .jumbotron p{
+            margin-top: 25%;/*37%*/
+    }
+    .row svg{
+        position: relative;
+        top: auto;
+        left: auto;
+    }
+
+    /* About */
+    .about h3,
+    .about h6,
+    .about p{
+        text-align: start;
+    }
+    .about img{
+        width: 170px;
+    }
+
+
+}

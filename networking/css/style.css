@@ -1,0 +1,194 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.body{
+    font-family: 'Roboto', sans-serif;
+}
+section{
+    min-height: 100vh;
+}
+hr{
+    margin:auto;
+    width: 150px;
+    border-top: 3px solid red;
+    /* margin-top: 0px; */
+}
+.bebas-nue{
+    font-family: 'Bebas Neue', cursive;
+}
+.dotgothic{
+    font-family: 'DotGothic16', sans-serif;
+}
+
+
+
+.navbar{
+    font-family: 'Viga', sans-serif;
+}
+/* Jumbotron */
+.jumbotron{
+    height: 100vh;
+    background-color: rgba(127, 255, 212, 0.295);
+    background-size: cover;
+}
+.jumbotron h1{
+    /* margin-top: 120%; */
+    font-size: 2rem;
+    font-family: 'Lobster', cursive;
+    margin-top: 40%;
+}
+.row svg{
+    width: 250px;
+    position: absolute;
+    top: 300px;
+    left: 15%;
+}
+.jumbotron p{
+    margin-top: 300px;
+}
+
+
+/* ssh */
+.img-thumbnail{
+    margin: 0;
+    padding: 0;
+}
+.ssh .card-deck a:hover .img-thumbnail{
+    border: 3px solid #343A40;
+}
+.class-animasi .teks2_1-animasi{
+    opacity: 0%;
+    transition: 1s;
+    /* transform: translate(-350px, 0px); */
+}
+
+.class-animasi .teks2_1-animasi.muncul{
+    opacity: 100%;
+    transform: translate(0px, 0px);
+}
+
+
+/* ftp */
+.ftp .card-deck a:hover .img-thumbnail{
+    border: 3px solid #343A40;
+}
+.class-animasi .teks2_2-animasi{
+    opacity: 0%;
+    transition: 1s;
+    /* transform: translate(-350px, 0px); */
+}
+.class-animasi .teks2_2-animasi.muncul{
+    opacity: 100%;
+    transform: translate(0px, 0px);
+}
+
+
+/* samba */
+.samba .card-deck a:hover .img-thumbnail{
+    border: 3px solid #343A40;
+}
+.class-animasi .teks2_3-animasi{
+    opacity: 0%;
+    transition: 1s;
+    /* transform: translate(-350px, 0px); */
+}
+.class-animasi .teks2_3-animasi.muncul{
+    opacity: 100%;
+    transform: translate(0px, 0px);
+}
+
+
+/* dns */
+.dns .card-deck a:hover .img-thumbnail{
+    border: 3px solid #343A40;
+}
+.class-animasi .teks2_4-animasi{
+    opacity: 0%;
+    transition: 1s;
+    /* transform: translate(-350px, 0px); */
+}
+.class-animasi .teks2_4-animasi.muncul{
+    opacity: 100%;
+    transform: translate(0px, 0px);
+}
+
+
+/* Web_Server */
+.Web_Server .card-deck a:hover .img-thumbnail{
+    border: 3px solid #343A40;
+}
+.class-animasi .teks2_5-animasi{
+    opacity: 0%;
+    transition: 1s;
+    /* transform: translate(-350px, 0px); */
+}
+.class-animasi .teks2_5-animasi.muncul{
+    opacity: 100%;
+    transform: translate(0px, 0px);
+}
+
+
+/* database */
+.database .card-deck a:hover .img-thumbnail{
+    border: 3px solid #343A40;
+}
+.class-animasi .teks2_6-animasi{
+    opacity: 0%;
+    transition: 1s;
+    /* transform: translate(-350px, 0px); */
+}
+.class-animasi .teks2_6-animasi.muncul{
+    opacity: 100%;
+    transform: translate(0px, 0px);
+}
+
+
+/* wordpress */
+.wordpress .card-deck a:hover .img-thumbnail{
+    border: 3px solid #343A40;
+}
+.class-animasi .teks2_7-animasi{
+    opacity: 0%;
+    transition: 1s;
+    /* transform: translate(-350px, 0px); */
+}
+.class-animasi .teks2_7-animasi.muncul{
+    opacity: 100%;
+    transform: translate(0px, 0px);
+}
+
+
+
+
+
+/* Media querie */
+@media (min-width: 768px) {
+    .jumbotron{
+        background-image: url("../img/jumbotron.svg");
+    }
+    .jumbotron h1{
+        font-size: 3rem;
+        margin-top: -10%;
+    }
+    .jumbotron p{
+            margin-top: 25%;/*37%*/
+    }
+    .row svg{
+        position: relative;
+        top: auto;
+        left: auto;
+    }
+
+    /* About */
+    .about h3,
+    .about h6,
+    .about p{
+        text-align: start;
+    }
+    .about img{
+        width: 170px;
+    }
+
+
+}

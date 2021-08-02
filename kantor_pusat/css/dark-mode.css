@@ -1,0 +1,60 @@
+/* Dark Mode */
+.dark-mode {
+    --first-color: #ffffff;/*#8f2fac*/
+    --second-color: #fff;/*#f700ff6e*/
+    --three-color: #121212;
+    --nav-color: #8f2fac;
+    --header1-color: #222222;
+    --navmenurs-color: #313131c7;
+    --shadow-colorheaderh1: rgba(255, 255, 255, .15);
+    --shadow-buttonhvr: rgba(255, 255, 255, .15);
+    --shadow-colorskdata: rgba(255, 255, 255, .15);
+    --shadow-colorworkimg: rgba(252, 252, 252, 0.15);
+    --footer-color: #222222;
+    --black-red-color: #fff;
+    transition: all 500ms ease-in-out;
+}
+.switch-kotak{
+    width: 4em;
+    height: 2em;
+    border-radius: 10em;
+    background: var(--three-color);
+    border: 2px solid var(--black-red-color);
+    position: relative;
+    cursor: pointer;
+}
+.switch-bulat{
+    width: 1.6em;
+    height: 1.4em;
+    background-color: var(--black-red-color);
+    position: relative;
+    border-radius: 10em;
+    top: 0.2em;
+    left: 0.2em;
+    cursor: pointer;
+    transition: all 500ms ease-in-out;
+    
+}
+
+.switch-kotak::before{
+    content: "Light Mode On";
+    color: var(--first-color);
+    position: absolute;
+    display: inline-block;
+    width: 12em;
+    left: 8em;/*-8 kudunya*/
+    top: 0.4em;
+    display: none;
+}
+
+#ganti-tema:checked ~ label .switch-bulat{
+    transform: translateX(1.8em);
+}
+#ganti-tema:checked ~ .switch-kotak::before{
+    content: "Dark Mode On";
+}
+
+#ganti-tema{
+    display: none;
+}
+
