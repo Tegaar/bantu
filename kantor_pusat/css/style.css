@@ -99,6 +99,13 @@ hr{
     transform: translate(0px, 0px);
 }
 
+.iconpf{
+    color: var(--text-color);
+    
+    
+}
+.iconpf:hover { color:var(--second-color); text-decoration:none; }
+
 /* Color */
 
 
@@ -122,9 +129,19 @@ button.button-awal{
     border: 1px solid red;
 }
 
-/* Project */
-.project-gambar{
-    /* background-image: url("../img/project.jpg"); */
+
+/* Portofolio */
+
+
+
+
+
+
+
+
+/* experience */
+.experience-gambar{
+    /* background-image: url("../img/experience.jpg"); */
     /* background-color: var(--bg-color); */
     background-attachment: fixed;
     
@@ -132,13 +149,13 @@ button.button-awal{
     
 }
 
-.project{
+.experience{
     margin-bottom: 50px;
     cursor: pointer;
     color: var(--text-color);
 }
 
-.project .project-kotak-cover{
+.experience .experience-kotak-cover{
     /* background-color: royalblue; */
     height: auto;
     /* border: 1px solid red; */
@@ -146,7 +163,7 @@ button.button-awal{
 
 
 
-.project-gambar p{
+.experience-gambar p{
     font-size: 80px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     text-shadow: 0px 0px 10px var(--second-color);
@@ -156,42 +173,44 @@ button.button-awal{
     transform: translate(0,0);
 }
 
-.project-gambar h3{
+.experience-gambar h3{
     margin-top: 10%;
     margin-bottom: 20%;
     /* color: rgb(255, 255, 255); */
 }
-.project-kotak{
+.experience-kotak{
     overflow: hidden;
     transition: .3s;
 }
-.project-kotak .project-p{
+.experience-kotak .experience-p{
     opacity: 0%;
     transition: 1s;
     transform: translate(350px, 0px);
 }
-.project-kotak .project-p.muncul{
+.experience-kotak .experience-p.muncul{
     opacity: 100%;
     transform: translate(0px, 0px);
 }
 
-.project-kotak .project-h3{
+.experience-kotak .experience-h3{
     opacity: 0%;
     transition: 1s;
     transform: translate(-350px, 0px);
 }
 
-.project-kotak .project-h3.muncul{
+.experience-kotak .experience-h3.muncul{
     opacity: 100%;
     transform: translate(0px, 0px);
 }
-.project-kotak:hover{
+.experience-kotak:hover{
     transform: scale(2);
 }
 
 
 
 /* Media querie */
+
+/* layar laptop berarti */
 @media (min-width: 768px) {
     .jumbotron{
         background-image: url("../img/jumbotron.svg");
@@ -218,6 +237,7 @@ button.button-awal{
     .about img{
         width: 170px;
     }
-
+    
+    
 
 }

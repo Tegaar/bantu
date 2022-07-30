@@ -16,22 +16,22 @@ $('.page-scroll').on('click', function(e){
 
 });
 
-// Project
+// experience
 $(window).scroll(function(){
     var wScroll = $(this).scrollTop();
     
-    if( wScroll > $('.project').offset().top - 350 ) {
-        $('.project-kotak .project-p').each(function(i){
+    if( wScroll > $('.experience').offset().top - 350 ) {
+        $('.experience-kotak .experience-p').each(function(i){
             setTimeout(function(){
-                $('.project-kotak .project-p').eq(i).addClass('muncul');
+                $('.experience-kotak .experience-p').eq(i).addClass('muncul');
                 
             }, 300 * (i+1));
         })
     };
-    if( wScroll > $('.project').offset().top - 350 ) {
-        $('.project-kotak .project-h3').each(function(i){
+    if( wScroll > $('.experience').offset().top - 350 ) {
+        $('.experience-kotak .experience-h3').each(function(i){
             setTimeout(function(){
-                $('.project-kotak .project-h3').eq(i).addClass('muncul');
+                $('.experience-kotak .experience-h3').eq(i).addClass('muncul');
                 
             }, 300 * (i+1));
         })
@@ -104,7 +104,7 @@ $(window).scroll(function(){
 
     
     
-    // if( wScroll > $('.project').offset().top - 250 ) {
+    // if( wScroll > $('.experience').offset().top - 250 ) {
     //     $('.kotak .teksp').each(function(i){
     //         setTimeout(function(){
     //             $('.kotak .teksp').eq(i).addClass('muncul');

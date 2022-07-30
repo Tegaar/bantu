@@ -82,6 +82,7 @@ hr{
     transform: translate(0px, 0px);
 }
 
+/*---------------------------------------------------------------------------------------------------------------------------------------------------------*/
 
 /* images */
 .images .card-deck a:hover .img-thumbnail{
@@ -99,7 +100,7 @@ hr{
 
 
 /* Vector */
-.Vector .card-deck a:hover .img-thumbnail{
+.vector .card-deck a:hover .img-thumbnail{
     border: 3px solid #343A40;
 }
 .class-animasi .teks2_4-animasi{
@@ -114,7 +115,7 @@ hr{
 
 
 /* edit_compress */
-.illustrasi3d .card-deck a:hover .img-thumbnail{
+.edit_compress .card-deck a:hover .img-thumbnail{
     border: 3px solid #343A40;
 }
 .class-animasi .teks2_5-animasi{
@@ -128,6 +129,7 @@ hr{
 }
 
 
+/*---------------------------------------------------------------------------------------------------------------------------------------------------------*/
 
 /* Media querie */
 @media (min-width: 768px) {

@@ -48,86 +48,132 @@ hr{
     margin-top: 300px;
 }
 
-
-/* Ilustariton2d */
 .img-thumbnail{
     margin: 0;
     padding: 0;
 }
+
+
+/* unfaedah1 */
 .unfaedah1 .card-deck a:hover .img-thumbnail{
     border: 3px solid #343A40;
 }
-.class-animasi .teks2_1-animasi{
+.class-animasi .teksu_1-animasi{
     opacity: 0%;
     transition: 1s;
     /* transform: translate(-350px, 0px); */
 }
-.class-animasi .teks2_1-animasi.muncul{
+.class-animasi .teksu_1-animasi.muncul{
     opacity: 100%;
     transform: translate(0px, 0px);
 }
 
 
-/* Ilustariton3d */
+/* unfaedah2 */
 .unfaedah2 .card-deck a:hover .img-thumbnail{
     border: 3px solid #343A40;
 }
-.class-animasi .teks2_2-animasi{
+.class-animasi .teksu_2-animasi{
     opacity: 0%;
     transition: 1s;
     /* transform: translate(-350px, 0px); */
 }
-.class-animasi .teks2_2-animasi.muncul{
+.class-animasi .teksu_2-animasi.muncul{
     opacity: 100%;
     transform: translate(0px, 0px);
 }
+
+/* unfaedah3 */
+.unfaedah3 .card-deck a:hover .img-thumbnail{
+    border: 3px solid #343A40;
+}
+.class-animasi .teksu_3-animasi{
+    opacity: 0%;
+    transition: 1s;
+    /* transform: translate(-350px, 0px); */
+}
+.class-animasi .teksu_3-animasi.muncul{
+    opacity: 100%;
+    transform: translate(0px, 0px);
+}
+
+/* unfaedah4 */
+.unfaedah4 .card-deck a:hover .img-thumbnail{
+    border: 3px solid #343A40;
+}
+.class-animasi .teksu_4-animasi{
+    opacity: 0%;
+    transition: 1s;
+    /* transform: translate(-350px, 0px); */
+}
+.class-animasi .teksu_4-animasi.muncul{
+    opacity: 100%;
+    transform: translate(0px, 0px);
+}
+
+
+
+
 
 
 /* berfaedah1 */
 .berfaedah1 .card-deck a:hover .img-thumbnail{
     border: 3px solid #343A40;
 }
-.class-animasi .teks2_3-animasi{
+.class-animasi .teksb_1-animasi{
     opacity: 0%;
     transition: 1s;
     /* transform: translate(-350px, 0px); */
 }
-.class-animasi .teks2_3-animasi.muncul{
+.class-animasi .teksb_1-animasi.muncul{
     opacity: 100%;
     transform: translate(0px, 0px);
 }
 
-
-/* Berfaedah 2 */
-.Berfaedah 2 .card-deck a:hover .img-thumbnail{
+/* berfaedah2 */
+.berfaedah2 .card-deck a:hover .img-thumbnail{
     border: 3px solid #343A40;
 }
-.class-animasi .teks2_4-animasi{
+.class-animasi .teksb_2-animasi{
     opacity: 0%;
     transition: 1s;
     /* transform: translate(-350px, 0px); */
 }
-.class-animasi .teks2_4-animasi.muncul{
+.class-animasi .teksb_2-animasi.muncul{
     opacity: 100%;
     transform: translate(0px, 0px);
 }
 
-
-/* edit_compress */
-.unfaedah2 .card-deck a:hover .img-thumbnail{
+/* berfaedah3 */
+.berfaedah3 .card-deck a:hover .img-thumbnail{
     border: 3px solid #343A40;
 }
-.class-animasi .teks2_5-animasi{
+.class-animasi .teksb_3-animasi{
     opacity: 0%;
     transition: 1s;
     /* transform: translate(-350px, 0px); */
 }
-.class-animasi .teks2_5-animasi.muncul{
+.class-animasi .teksb_3-animasi.muncul{
     opacity: 100%;
     transform: translate(0px, 0px);
 }
 
 
+/* Berfaedah 4 */
+.berfaedah4 .card-deck a:hover .img-thumbnail{
+    border: 3px solid #343A40;
+}
+.class-animasi .teksb_4-animasi{
+    opacity: 0%;
+    transition: 1s;
+    /* transform: translate(-350px, 0px); */
+}
+.class-animasi .teksb_4-animasi.muncul{
+    opacity: 100%;
+    transform: translate(0px, 0px);
+}
+
+/*-----------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
 
 /* Media querie */
 @media (min-width: 768px) {

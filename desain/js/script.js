@@ -40,7 +40,10 @@ $(window).scroll(function(){
         })
     };
     
-    
+    //------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+
     if( wScroll > $('.images').offset().top - 250 ) {
         $('.class-animasi .teks2_3-animasi').each(function(i){
             setTimeout(function(){
@@ -68,28 +71,12 @@ $(window).scroll(function(){
         })
     };
     
+    //-------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
 
 
-
-    if( wScroll > $('.database').offset().top - 250 ) {
-        $('.class-animasi .teks2_6-animasi').each(function(i){
-            setTimeout(function(){
-                $('.class-animasi .teks2_6-animasi').eq(i).addClass('muncul');
-                
-            }, 300 * (i+1));
-        })
-    };
     
-    if( wScroll > $('.wordpress').offset().top - 250 ) {
-        $('.class-animasi .teks2_7-animasi').each(function(i){
-            setTimeout(function(){
-                $('.class-animasi .teks2_7-animasi').eq(i).addClass('muncul');
-                
-            }, 300 * (i+1));
-        })
-    };
 
 });
 

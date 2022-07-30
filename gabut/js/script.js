@@ -23,73 +23,96 @@ $(window).scroll(function(){
     
 
     if( wScroll > $('.unfaedah1').offset().top - 250 ) {
-        $('.class-animasi .teks2_1-animasi').each(function(i){
+        $('.class-animasi .teksu_1-animasi').each(function(i){
             setTimeout(function(){
-                $('.class-animasi .teks2_1-animasi').eq(i).addClass('muncul');
+                $('.class-animasi .teksu_1-animasi').eq(i).addClass('muncul');
                 
             }, 300 * (i+1));
         })
     };
 
     if( wScroll > $('.unfaedah2').offset().top - 250 ) {
-        $('.class-animasi .teks2_2-animasi').each(function(i){
+        $('.class-animasi .teksu_2-animasi').each(function(i){
             setTimeout(function(){
-                $('.class-animasi .teks2_2-animasi').eq(i).addClass('muncul');
+                $('.class-animasi .teksu_2-animasi').eq(i).addClass('muncul');
+                
+            }, 300 * (i+1));
+        })
+    };
+
+    if( wScroll > $('.unfaedah3').offset().top - 250 ) {
+        $('.class-animasi .teksu_3-animasi').each(function(i){
+            setTimeout(function(){
+                $('.class-animasi .teksu_3-animasi').eq(i).addClass('muncul');
+                
+            }, 300 * (i+1));
+        })
+    };
+
+    if( wScroll > $('.unfaedah4').offset().top - 250 ) {
+        $('.class-animasi .teksu_4-animasi').each(function(i){
+            setTimeout(function(){
+                $('.class-animasi .teksu_4-animasi').eq(i).addClass('muncul');
                 
             }, 300 * (i+1));
         })
     };
     
     
+
+
+
+
+    //----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
     if( wScroll > $('.berfaedah1').offset().top - 250 ) {
-        $('.class-animasi .teks2_3-animasi').each(function(i){
+        $('.class-animasi .teksb_1-animasi').each(function(i){
             setTimeout(function(){
-                $('.class-animasi .teks2_3-animasi').eq(i).addClass('muncul');
+                $('.class-animasi .teksb_1-animasi').eq(i).addClass('muncul');
                 
             }, 300 * (i+1));
         })
     };
 
     if( wScroll > $('.berfaedah2').offset().top - 250 ) {
-        $('.class-animasi .teks2_4-animasi').each(function(i){
+        $('.class-animasi .teksb_2-animasi').each(function(i){
             setTimeout(function(){
-                $('.class-animasi .teks2_4-animasi').eq(i).addClass('muncul');
+                $('.class-animasi .teksb_2-animasi').eq(i).addClass('muncul');
+                
+            }, 300 * (i+1));
+        })
+    };
+
+    if( wScroll > $('.berfaedah3').offset().top - 250 ) {
+        $('.class-animasi .teksb_3-animasi').each(function(i){
+            setTimeout(function(){
+                $('.class-animasi .teksb_3-animasi').eq(i).addClass('muncul');
+                
+            }, 300 * (i+1));
+        })
+    };
+
+    if( wScroll > $('.berfaedah4').offset().top - 250 ) {
+        $('.class-animasi .teksb_4-animasi').each(function(i){
+            setTimeout(function(){
+                $('.class-animasi .teksb_4-animasi').eq(i).addClass('muncul');
                 
             }, 300 * (i+1));
         })
     };
     
-    if( wScroll > $('.edit_compress').offset().top - 250 ) {
-        $('.class-animasi .teks2_5-animasi').each(function(i){
-            setTimeout(function(){
-                $('.class-animasi .teks2_5-animasi').eq(i).addClass('muncul');
-                
-            }, 300 * (i+1));
-        })
-    };
+
+
+
+
+
+
+
+
+
+
+
     
-
-
-
-
-
-    if( wScroll > $('.database').offset().top - 250 ) {
-        $('.class-animasi .teks2_6-animasi').each(function(i){
-            setTimeout(function(){
-                $('.class-animasi .teks2_6-animasi').eq(i).addClass('muncul');
-                
-            }, 300 * (i+1));
-        })
-    };
-    
-    if( wScroll > $('.wordpress').offset().top - 250 ) {
-        $('.class-animasi .teks2_7-animasi').each(function(i){
-            setTimeout(function(){
-                $('.class-animasi .teks2_7-animasi').eq(i).addClass('muncul');
-                
-            }, 300 * (i+1));
-        })
-    };
 
 });
 
