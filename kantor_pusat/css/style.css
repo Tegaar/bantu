@@ -135,7 +135,10 @@ button.button-awal{
 
 
 
-
+/* Project */
+.project p{
+    color: var(--second-color);
+}
 
 
 
