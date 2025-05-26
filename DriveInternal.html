@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Halaman dengan Password</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            background-color: #f0f0f0;
+        }
+        .container {
+            background-color: white;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+        input[type="password"] {
+            padding: 10px;
+            margin-bottom: 15px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            width: 200px;
+        }
+        button {
+            padding: 10px 20px;
+            background-color: #007bff;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #0056b3;
+        }
+        #message {
+            color: red;
+            margin-top: 10px;
+        }
+        /* Style untuk gambar atau video */
+        .media-container {
+            margin-bottom: 20px; /* Jarak antara media dan teks */
+        }
+        .media-container img,
+        .media-container video {
+            max-width: 100%; /* Agar gambar/video tidak melebihi lebar container */
+            height: auto;
+            border-radius: 5px; /* Sedikit sudut membulat */
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="media-container">
+            <img src="https://media.tenor.com/57XAx1F7PWwAAAAM/yntkts-ya-ndak-tau-kok-tanya-saya.gif" alt="Funny GIF">
+        </div>
+<!--bila vidio
+
+<div class="media-container">
+
+    <video autoplay loop muted playsinline>
+
+        <source src="URL_VIDEO_ANDA_DI_SINI.mp4" type="video/mp4">
+
+        Your browser does not support the video tag.
+
+    </video>
+
+</div> --!>
+
+        <h1>Silakan masukkan password 🤪 untuk melanjutkan</h1>
+        <input type="password" id="passwordInput" placeholder="Masukkan password">
+        <button onclick="checkPassword()">Lanjutkan</button>
+        <p id="message"></p>
+        <a href="https://www.example.com" id="targetLink" style="display: none;">Go to Example.com</a>
+    </div>
+
+    <script>
+        const correctPassword = "lkjasd"; // Ganti dengan password yang Anda inginkan
+        const targetUrl = "https://uinjktacid-my.sharepoint.com/my?id=%2Fpersonal%2Ftegar%5Fardiyansyah22%5Fmhs%5Fuinjkt%5Fac%5Fid%2FDocuments%2FFree%20Space%20At%20Website&ga=1"; // Ganti dengan URL tujuan Anda
+
+        function checkPassword() {
+            const enteredPassword = document.getElementById("passwordInput").value;
+            const messageElement = document.getElementById("message");
+
+            if (enteredPassword === correctPassword) {
+                messageElement.textContent = "";
+                window.location.href = targetUrl; // Redirect ke URL tujuan
+            } else {
+                messageElement.textContent = "Awkwokowkow Salah Kocak.";
+            }
+        }
+
+        // Menambahkan event listener untuk input password
+        document.getElementById("passwordInput").addEventListener("keypress", function(event) {
+            // Periksa jika tombol yang ditekan adalah "Enter" (kode 13)
+            if (event.key === "Enter") {
+                // Mencegah tindakan default dari tombol Enter (misalnya submit form jika ada)
+                event.preventDefault();
+                // Panggil fungsi checkPassword
+                checkPassword();
+            }
+        });
+    </script>
+</body>
+</html>
